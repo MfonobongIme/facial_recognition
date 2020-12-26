@@ -85,8 +85,4 @@ while True:
 
 
 
-#faceLocTest = face_recognition.face_locations(imgTest)[0] #locate the face
-#encodeTest = face_recognition.face_encodings(imgTest)[0] #find the encodings on the located face
-#cv2.rectangle(imgTest, (faceLocTest[3], faceLocTest[0]), (faceLocTest[1], faceLocTest[2]), (255, 0, 255), 2)#draw a rectangle where the face location is
 
-#results = face_recognition.compare_faces([encodeElon], encodeTest) #compares both images and predicts if it matches or not
